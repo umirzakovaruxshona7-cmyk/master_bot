@@ -10,7 +10,7 @@ from openai import OpenAI
 import random
 
 # ====== CONFIG ======
-BOT_TOKEN = "8781410268:AAEVGcHBH7VRnjg9SZPvg1DUWDvmoKmoQEI"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 import os
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
