@@ -1,0 +1,5 @@
+aiogram
+python-pptx
+requests
+openai
+Pillow
